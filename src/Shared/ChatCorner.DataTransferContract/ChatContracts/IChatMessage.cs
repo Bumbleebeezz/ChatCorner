@@ -1,8 +1,10 @@
-﻿namespace ChatCorner.DataTransferContract.ChatContracts;
+﻿using ChatCorner.DataTransferContract.DataTransferObjects;
+
+namespace ChatCorner.DataTransferContract.ChatContracts;
 
 public interface IChatMessage
 {
-    IMessageSender Sender { get; set; }
+    MessageSenderDTO Sender { get; set; }
     string Message { get; set; }
     DateTime CreatedAt { get; set; }
 }

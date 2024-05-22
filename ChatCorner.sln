@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatCorner.DataTransferCont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatCorner.CommonInterfaces", "src\Shared\ChatCorner.CommonInterfaces\ChatCorner.CommonInterfaces.csproj", "{CBE781B8-9397-48A3-A035-317A385407F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatCorner", "src\Frontend\ChatCorner\ChatCorner.csproj", "{A86E3243-6346-4C0D-9E67-2E0A1903A30D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{CBE781B8-9397-48A3-A035-317A385407F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE781B8-9397-48A3-A035-317A385407F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBE781B8-9397-48A3-A035-317A385407F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86E3243-6346-4C0D-9E67-2E0A1903A30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86E3243-6346-4C0D-9E67-2E0A1903A30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86E3243-6346-4C0D-9E67-2E0A1903A30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86E3243-6346-4C0D-9E67-2E0A1903A30D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{8293BFC9-6673-46AD-B17B-28DF749544F0} = {4969B3F5-FB80-4111-B3F5-90312BABB110}
 		{EAC97F6C-ED2F-43D6-A59C-0C5FE3D2649E} = {018384A6-BA91-47F7-85FB-B1C6DDEFF4CD}
 		{CBE781B8-9397-48A3-A035-317A385407F6} = {018384A6-BA91-47F7-85FB-B1C6DDEFF4CD}
+		{A86E3243-6346-4C0D-9E67-2E0A1903A30D} = {CF678901-02F2-4077-BFCA-15EFDDC2F8DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCD6BAD2-99DD-4441-B928-1B6B15F64413}
